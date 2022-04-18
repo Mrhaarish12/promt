@@ -20,4 +20,5 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('promotform1', views.savepromf, name="savepromf"),
+    # path('', views.insertpromf)
 ]
